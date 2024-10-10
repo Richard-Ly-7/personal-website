@@ -1,6 +1,7 @@
-window.onbeforeunload = function () {
-    window.scrollTo(0,0);
-}
+$(document).ready(function(){
+    console.log("Help");
+    $(this).scrollTop(0);
+});
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
