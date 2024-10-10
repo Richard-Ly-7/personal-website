@@ -5,6 +5,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     background-image: linear-gradient(150deg, white, var(--light-blue));
 }
 
