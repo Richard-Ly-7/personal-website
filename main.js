@@ -1,7 +1,3 @@
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry);
