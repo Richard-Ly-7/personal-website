@@ -49,12 +49,12 @@ header > * {
     max-height: 100%;
 }
 
-.homepage-portrait:hover img:nth-child(2){
-    transform: translate(-110%, 20%) rotate(-30deg);
-}
-
 .homepage-portrait:hover img:nth-child(1){
     transform: translate(325%, 150%) rotate(-10deg);
+}
+
+.homepage-portrait:hover img:nth-child(2){
+    transform: translate(-110%, 20%) rotate(-30deg);
 }
 
 .homepage-portrait:hover img:nth-child(3){
